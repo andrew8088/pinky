@@ -1,0 +1,15 @@
+{
+  "name": "pinky",
+  "version": "1.0.0",
+  "description": "A simple JavaScript promise implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*-test.js | faucet"
+  },
+  "author": "Andrew Burgess",
+  "license": "MIT",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.4.0"
+  }
+}
